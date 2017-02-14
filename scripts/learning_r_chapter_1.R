@@ -34,8 +34,9 @@ mean(y_vector, na.rm=TRUE)
 sd(y_vector, na.rm=TRUE)
 median(y_vector, na.rm=TRUE)
 
-# variables that contain the string 'vector'
+# finding variables that contain the string 'vector'
 apropos("vector")
 
+# most functions have examples and demos
 example(plot)
 demo(barplot())

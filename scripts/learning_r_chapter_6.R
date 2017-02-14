@@ -32,7 +32,7 @@ head(ls(envir = baseenv()), 25)
 
 # functions
 
-#Fahrenheit to Celsius Formula:
+# fahrenheit to celsius:
 # C = (F - 32) × 5/9
 fahrenheit_to_celsius <- function(x) {
   (x - 32) * 5/9
@@ -40,7 +40,7 @@ fahrenheit_to_celsius <- function(x) {
 
 fahrenheit_to_celsius(100)
 
-#  Celsius to Fahrenheit Formula:
+#  celsius to fahrenheit:
 #  F = C × 9/5 + 32
 celsius_to_fahrenheit <- function(x){
   x * 9/5 + 32

@@ -1,0 +1,19 @@
+---
+title: "R Basics"
+author: "Doug Duril"
+date: "February 13, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+## Computing Basic Statistics
+
+```{r stats}
+x <- c(0,1,1,2,3,5,8,13,21,34,NA)
+x
+mean(x, na.rm=TRUE)
+median(x, na.rm=TRUE)
+sd(x, na.rm=TRUE)
+```
+

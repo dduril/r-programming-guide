@@ -72,17 +72,22 @@ basename(file_name)
 dirname(file_name)
 
 # factors
-(produce <- data.frame(
-  typ = c("Apples", "Bananas", "Cherries", "Oranges", "Pears"),
-  qty = c(12, 15, 10, 20, 17)
+(ages <- data.frame(
+  gender = c("male", "female", "male", "female", "female",
+             "male", "female", "male", "female", "female"),
+  num_years = c(28, 32, 25, 37, 44, 52, 43, 29, 35, 46)
 ))
 
-class(produce$qty)
-class(produce$typ)
+# inspect classes of columns
+class(ages$gender)
+class(ages$num_years)
 
-produce$typ
-levels(produce$typ)
-nlevels(produce$typ)
+# list out factors
+ages$gender
+
+# get factor levels and number of factors
+levels(ages$gender)
+nlevels(ages$gender)
   
   
   

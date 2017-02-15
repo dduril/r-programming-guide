@@ -48,7 +48,49 @@ cat("foo'bar'baz", fill = TRUE)
 toupper("Hello World!")
 tolower("Hello World!")
 
+# substrings
 r_prog <- c("R is a language and environment for statistical computing and graphics.")
 r_prog
 
+?substring
+substring(r_prog, 1, 15)
 
+?substr
+substr(r_prog, 1, 31)
+
+# file paths
+getwd()
+
+file.path("c:", "development", "R", "scripts")
+
+R.home()
+
+path.expand("~")
+
+file_name <- "C:/Program Files/R/R-3.2.2/bin/x64/Rgui.exe"
+basename(file_name)
+dirname(file_name)
+
+# factors
+(produce <- data.frame(
+  typ = c("Apples", "Bananas", "Cherries", "Oranges", "Pears"),
+  qty = c(12, 15, 10, 20, 17)
+))
+
+class(produce$qty)
+class(produce$typ)
+
+produce$typ
+levels(produce$typ)
+nlevels(produce$typ)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

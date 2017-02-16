@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 6
+# Chapter 6 - Environments and Functions
+#
+# -----------------------------------------------
 
 # environment variables and functions
 my_environment <- new.env()

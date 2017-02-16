@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 5
+# Chapter 5 - Lists and Data Frames
+#
+# -----------------------------------------------
 
 # lists
 a_list <- c(12, 23, 15, 18, 25)

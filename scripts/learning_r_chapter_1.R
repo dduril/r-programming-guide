@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 1
+# Chapter 1 - Introduction
+#
+# -----------------------------------------------
 
 # first R program
 mean(1:5)

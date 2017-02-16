@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 3
+# Chapter 3 - Variables and Workspace
+#
+# -----------------------------------------------
 
 # classes
 class(c(TRUE, FALSE))

@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 2
+# Chapter 2 - Scientific Calculator
+#
+# -----------------------------------------------
 
 sum(1:5)
 median(1:5)

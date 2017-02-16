@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 7
+# Chapter 7 - Strings and Factors
+#
+# -----------------------------------------------
 
 # string
 a_string <- c("Hello World!")

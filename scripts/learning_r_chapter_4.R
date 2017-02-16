@@ -1,6 +1,10 @@
+# -----------------------------------------------
 # R Programming
+#
 # Learning R
-# Chapter 4
+# Chapter 4 - Vectors, Matrices, and Arrays
+#
+# -----------------------------------------------
 
 # vectors
 numeric(5)

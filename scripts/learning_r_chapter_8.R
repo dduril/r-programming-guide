@@ -68,6 +68,7 @@ repeat{
   if(action == "Release") break
 }
 
+# repeat with next (continue)
 repeat{
   message("Continue programming")
   action <- sample(
@@ -90,6 +91,62 @@ repeat{
   if(action == "Release") break
 }
 
+# while loop
+action <- sample(
+  c(
+    "Analyze",
+    "Prototype",
+    "Develop",
+    "Test",
+    "Release"
+  ),
+  1
+)
+while(action != "Release") {
+  message("Continue programming")
+  action <- sample(
+    c(
+      "Analyze",
+      "Prototype",
+      "Develop",
+      "Test",
+      "Release"
+    ),
+    1
+  )
+  message(">> action = ", action)
+}
 
+# for loops
+for(i in 1:5) message("i = ", i)
 
+# using sprintf for better formatting
+for(i in 1:5){
+  j <- i ^ 3
+  x <- sprintf("i = %d, j = %d", i, j)
+  print(x)
+}
 
+# using months
+for(month in month.name){
+  message("The month of ", month)
+}
+
+# a few more examples
+for(yn in c(TRUE, FALSE, NA)){
+  message("This statement is ", yn)
+}
+
+l <- list(
+  pi,
+  letters[1:26],
+  LETTERS[1:26],
+  list(
+    TRUE,
+    FALSE,
+    NA
+  )
+)
+for(i in l){
+  print(i)
+}

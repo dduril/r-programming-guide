@@ -6,7 +6,7 @@ R is easy to install on Linux, MacOS and Windows and most R programmers seem to 
 
 Packages (libraries) can be installed individually or in bundles such as the Hadleyverse or tidyverse.
 
-### Getting Started
+### Setup
 
 - **<a href="https://www.r-project.org/">R Project for Statistical Computing</a>**
 - **<a href="https://www.rstudio.com/">RStudio</a>**
@@ -20,4 +20,5 @@ Packages (libraries) can be installed individually or in bundles such as the Had
 
 - Learning R _(O'Reilly)_
 - R Cookbook _(O'Reilly)_
+- R Graphics Cookbook _(O'Reilly)_
 - R for Data Science _(O'Reilly)_

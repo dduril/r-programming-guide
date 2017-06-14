@@ -8,13 +8,13 @@ Packages (libraries) can be installed individually or in bundles such as the Had
 
 ### Setup
 
-- **<a href="https://www.r-project.org/">R Project for Statistical Computing</a>**
-- **<a href="https://www.rstudio.com/">RStudio</a>**
+- **[R Project for Statistical Computing](https://www.r-project.org/)**
+- **[RStudio](https://www.rstudio.com/)**
 
 ### Packages
 
-- **<a href="http://rmarkdown.rstudio.com/">R Markdown</a>**
-- **<a href="http://tidyverse.org/">tidyverse</a>**
+- **[R Markdown](href="http://rmarkdown.rstudio.com/)**
+- **[tidyverse](http://tidyverse.org/)** - dplyr, forcats, ggplot2, haven, lubridate, readr, stringr, tidyr
 
 ### Books
 

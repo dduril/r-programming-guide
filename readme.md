@@ -4,7 +4,7 @@ The purpose of this repo is to provide fundamentals for R programming. Located i
 
 R is easy to install on Linux, MacOS and Windows and most R programmers seem to prefer using the RStudio IDE.
 
-Packages (libraries) can be installed individually or in bundles such as the Hadleyverse or tidyverse.
+Packages (libraries) can be installed individually or in bundles such as the tidyverse.
 
 ### Setup
 
